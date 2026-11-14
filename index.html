@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a56">
+  <meta name="description" content="Alex Chen's fictional student portfolio, focused on backend engineering internships.">
+  <title>Alex Chen | Backend Engineering Student</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Alex Chen home"><span class="brand-mark">AC</span><span>Alex Chen</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE · BEIJING, CHINA</p>
+        <h1 id="hero-title">Building useful software, one thoughtful system at a time.</h1>
+        <p class="hero-intro">I'm Alex Chen, a master's student in Computer Science exploring backend development, databases, and software testing.</p>
+        <a class="button" href="#about">Explore my portfolio <span aria-hidden="true">↓</span></a>
+        <a class="button button-secondary" href="#projects">View Projects <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-note" aria-label="Career focus"><span class="note-icon">01</span><p>Career focus</p><strong>Backend Engineering Internship</strong><span class="note-line"></span><small>Learning by building and improving real tools.</small></div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+    <div class="content-wrap">
+      <section class="section about-section" id="about">
+        <div class="section-label"><span>01</span> ABOUT</div>
+        <div class="section-content"><h2>Curious about how things work.</h2><p class="lead">I enjoy using programming to solve everyday problems.</p><p>I'm currently studying backend development, databases, and software testing. Through an internship, I hope to gain experience working on real projects and strengthen my collaboration and troubleshooting skills.</p><div class="learning-strip"><span class="pulse"></span><span><strong>Currently learning</strong> Data structures & algorithms · SQL · AI coding tools</span></div></div>
+      </section>
+      <section class="section projects-section" id="projects">
+        <div class="section-label"><span>02</span> PROJECTS</div>
+        <div class="section-content"><div class="projects-heading"><div><h2>Small projects, real lessons.</h2><p>Coursework and independent practice that helped me learn by doing.</p></div><span class="project-count">02 PROJECTS</span></div>
+          <div class="project-grid">
+            <article class="project-card"><div class="project-top"><span class="project-index">01 / TEAM COURSE PROJECT</span><span class="project-symbol">⌘</span></div><h3>Campus Event Management System</h3><p class="project-summary">A team course project for browsing campus events, registering, and viewing registration history.</p><div class="project-meta"><h4>Technology stack</h4><div class="tags"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span></div></div><div class="project-meta"><h4>My contribution</h4><p>Developed the event search API and registration API, and designed the database tables for events and registration records.</p><ul class="contribution-list"><li>Built event filtering and registration storage.</li><li>Added duplicate registration checks to prevent repeat sign-ups.</li></ul></div><details class="learned"><summary>What I Learned</summary><p>API design, data relationships, and input validation are essential for a reliable application.</p></details></article>
+            <article class="project-card project-card-light"><div class="project-top"><span class="project-index">02 / PERSONAL PRACTICE</span><span class="project-symbol">↗</span></div><h3>Personal Learning Tracker</h3><p class="project-summary">A practice project for tracking study topics, daily tasks, and completion status.</p><div class="project-meta"><h4>Technology stack</h4><div class="tags"><span>Python</span><span>SQLite</span></div></div><div class="project-meta"><h4>My contribution</h4><p>Independently designed and implemented the main features: adding tasks, updating completion status, and searching learning records.</p></div><details class="learned"><summary>What I Learned</summary><p>Data persistence, code organization, and basic testing help keep a small project dependable and understandable.</p></details></article>
+          </div>
+        </div>
+      </section>
+      <section class="section education-section" id="education">
+        <div class="section-label"><span>03</span> EDUCATION</div>
+        <div class="section-content"><h2>Learning the foundations.</h2><article class="education-card"><div class="edu-badge">MSc</div><div><h3>Master of Science in Computer Science</h3><p>In progress</p><div class="course-list"><span>Data Structures & Algorithms</span><span>Database Systems</span><span>Software Engineering</span><span>Computer Networks</span></div></div><span class="edu-status">IN PROGRESS</span></article></div>
+      </section>
+      <section class="section skills-section" id="skills">
+        <div class="section-label"><span>04</span> SKILLS</div>
+        <div class="section-content"><h2>Tools I work with.</h2><div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><h3>Languages</h3><p>Python · Java · JavaScript</p></article>
+          <article class="skill-card"><span class="skill-number">02</span><h3>Data</h3><p>SQL · PostgreSQL · SQLite</p></article>
+          <article class="skill-card"><span class="skill-number">03</span><h3>Development</h3><p>Git · GitHub · VS Code</p></article>
+          <article class="skill-card"><span class="skill-number">04</span><h3>Core skills</h3><p>REST API development · Unit testing · Debugging · Troubleshooting</p></article>
+        </div></div>
+      </section>
+      <section class="contact-section" id="contact"><div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's connect.</h2><p>I'm interested in learning from real engineering teams and contributing to useful backend projects.</p></div><a class="contact-link" href="mailto:alex.chen@example.com">alex.chen@example.com <span aria-hidden="true">↗</span></a></section>
+    </div>
+  </main>
+  <footer><span>© <span id="year"></span> Alex Chen</span><span>Fictional demonstration profile. All names, education details, and project experiences are fictional.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>

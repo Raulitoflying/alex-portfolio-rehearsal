@@ -1,0 +1,15 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vercel/
+
+# Temporary and OS files
+.DS_Store
+*.tmp
+*.temp
+*.log
+*.swp
+*~
